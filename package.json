@@ -1,6 +1,6 @@
 {
   "name"          : "lowercase-values",
-  "version"       : "1.0.1",
+  "version"       : "1.0.2",
   "description"   : "Convert the values present in an object to lowercase",
   "license"       : "MIT",
   "repository"    : "https://github.com/luthraG/lowercase-values.git",
