@@ -37,7 +37,9 @@ lowercasevalues.toLowerCaseValues(days);
 
 ### Clone the repo
 
-git clone https://github.com/luthraG/lowercase-values.git
+```bash
+$ git clone https://github.com/luthraG/lowercase-values.git
+```
 
 ### API
 
