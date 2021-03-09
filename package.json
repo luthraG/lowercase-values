@@ -1,23 +1,23 @@
 {
-  "name"          : "lowercase-values",
-  "version"       : "1.0.3",
-  "description"   : "Convert the values present in an object to lowercase",
-  "license"       : "MIT",
-  "repository"    : "https://github.com/luthraG/lowercase-values.git",
-  "author"        : {
-    "name"        : "Gaurav Luthra",
-    "email"       : "luthra.zenith@gmail.com"
+  "name": "lowercase-values",
+  "version": "1.0.3",
+  "description": "Convert the values present in an object to lowercase",
+  "license": "MIT",
+  "repository": "https://github.com/luthraG/lowercase-values.git",
+  "author": {
+    "name": "Gaurav Luthra",
+    "email": "luthra.zenith@gmail.com"
   },
-  "dependencies"  : {
-    "node-ratify" : "~1.1.0"
+  "dependencies": {
+    "node-ratify": "~1.1.0"
   },
-  "engines"       : {
-    "node"        : ">=0.10.0"
+  "engines": {
+    "node": ">=0.10.0"
   },
-  "files"         : [
+  "files": [
     "index.js"
   ],
-  "keywords"      : [
+  "keywords": [
     "object",
     "values",
     "properties",
@@ -29,5 +29,11 @@
     "case",
     "value",
     "toLowerCase"
-  ]
+  ],
+  "devDependencies": {
+    "ava": "^3.15.0"
+  },
+  "scripts": {
+    "test": "ava"
+  }
 }
